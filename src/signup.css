@@ -38,7 +38,7 @@
 }
 
 .signup-btn{
-    background: linear-gradient(to right, #3498db, #2ecc71);
+    background: linear-gradient(to left, #3498db, #2ecc71);
     border: 1px solid #3498db;
     border-radius: 8px;
     color: #fff;
@@ -54,7 +54,7 @@
 
 .signup-btn:hover{
     color: #fff;
-    background: linear-gradient(to left, #3498db, #2ecc71);
+    background: linear-gradient(to right, #3498db, #2ecc71);
     border: 1px solid #3498db;
     transition: 0.4s;
     font-size: 18px;

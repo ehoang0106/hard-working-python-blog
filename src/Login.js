@@ -9,12 +9,13 @@ const Login = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault(); //prevent refresh the page after hit the 
-        history.push('/sign-in'); //return to sign-in page
+        //history.push('/sign-in'); //return to sign-in page
     }
 
     
     
-    return (  
+    return (
+        
         <div className="login">
             <h2>Login</h2>
             <form onSubmit={handleSubmit}>

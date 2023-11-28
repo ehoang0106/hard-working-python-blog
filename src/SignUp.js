@@ -50,13 +50,9 @@ const SignUp = () => {
         //     alert('Passwords does not match. Re-enter your passwords.');
         //     return;
         // }
-        history.push('/sign-in'); //return to sign-in page
+        
     }
 
-    
-
-    
-    
     
 
     
