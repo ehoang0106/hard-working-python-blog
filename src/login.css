@@ -1,0 +1,110 @@
+.login{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.login h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #0194f6, #04fc6b);
+    -webkit-background-clip: text;
+    color: transparent; 
+    position: relative;
+}
+.login label{
+    font-size: 19px;
+    text-align: left;
+    display: block;
+    color: #3498dbbb;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    padding: 8px 15px;
+    margin: 10px 0;
+    border: 1.8px solid rgb(98, 97, 97);
+    border-radius: 15px 50px 30px;
+    box-sizing: border-box;
+    display: block;
+    height: 45px;
+    font-size: medium;
+}
+
+::placeholder{
+    color: rgb(160, 151, 151);
+    opacity: 1;
+    font-size: 15px;
+}
+
+
+/* custom login button */
+
+
+.login-btn-2{
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    color: #fff;
+    padding: 9px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 18px;
+    transition: background-color 1s ease, color 1s ease, border-color 1s ease;
+    width: 100%;
+
+}
+
+
+.login-btn-2:hover{
+    color: #fff;
+    background: linear-gradient(to left, #3498db, #2ecc71);
+    border: 1px solid #3498db;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.forget-pw{
+    text-align: right;
+}
+
+.signup-box {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.signup-box p {
+    margin-bottom: 15px;
+}
+
+.signup-btn {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    color: #fff;
+    padding: 9px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 1s ease, color 1s ease, border-color 1s ease;
+}
+
+.signup-btn:hover {
+    color: #fff;
+    background: linear-gradient(to left, #3498db, #2ecc71);
+    border: 1px solid #3498db;
+    transition: 0.4s;
+    font-weight: bold;
+}

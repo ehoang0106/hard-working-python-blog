@@ -1,0 +1,105 @@
+.sign-up{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sign-up h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #0194f6, #04fc6b);
+    -webkit-background-clip: text;
+    color: transparent; 
+    position: relative;
+}
+.sign-up label{
+    font-size: 19px;
+    text-align: left;
+    display: block;
+    color: #3498dbbb;
+    font-weight: bold;
+}
+
+.sign-up input{
+    width: 100%;
+    padding: 8px 15px;
+    margin: 10px 0;
+    border: 1.8px solid rgb(98, 97, 97);
+    border-radius: 15px 50px 30px;
+    box-sizing: border-box;
+    display: block;
+    height: 45px;
+    font-size: medium;
+}
+
+::placeholder{
+    color: rgb(160, 151, 151);
+    opacity: 1;
+    font-size: 15px;
+}
+
+.signup-btn{
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    color: #fff;
+    padding: 9px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.8 ease, color 0.8s ease, border-color 0.8s ease;
+
+}
+
+
+.signup-btn:hover{
+    color: #fff;
+    background: linear-gradient(to left, #3498db, #2ecc71);
+    border: 1px solid #3498db;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* custom login button */
+.login-btn-1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+    border: 2px solid #3498db;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.8s ease, border-color 0.8s ease;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: -20px;
+    order: 2;
+    padding: 8px;
+    
+}
+
+
+
+.login-btn-1 a{
+    text-decoration: none;
+}
+
+.login-btn-1:hover{
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    color: #fff;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.have-account{
+    order:1;
+    margin-left: -30px;
+    padding: 10px;
+    font-size: 17px;
+    font-style: oblique;
+    margin-left: 130px;
+}
+

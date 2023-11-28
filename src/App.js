@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/rea
 import Create from './Create';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
+import SignUp from './SignUp';
+import Login from './Login';
 
 
 function App() {
@@ -21,17 +23,26 @@ function App() {
             <Home />
           </Route>
 
-
           <Route exact path="/create"> 
             <Create />
+          </Route>
+
+          <Route exact path="/sign-up">
+            <SignUp/>
+          </Route>
+
+          <Route exact path="/login">
+            <Login/>
           </Route>
 
           <Route exact path="/blogs/:id"> 
             <BlogDetails />
           </Route>
+
           <Route path='*'>
             <NotFound/>
           </Route>
+
         </Switch>
       </div>
     </div>
