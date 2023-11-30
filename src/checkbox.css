@@ -1,0 +1,30 @@
+.checkbox-wrapper{
+    display: block;
+    align-items: center;
+
+}
+
+.checkbox-wrapper label{
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.checkbox-wrapper span{
+    font-size: 15px;
+}
+
+.typePW input{
+    width: 400px;
+    padding: 8px 15px;
+    margin: 10px 0;
+    border: 1.8px solid rgb(98, 97, 97);
+    border-radius: 15px 50px 30px;
+    display: block;
+    height: 20px;
+    font-size: medium;
+}
+
+.checkbox-wrapper p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
