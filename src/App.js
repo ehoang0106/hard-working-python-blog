@@ -10,6 +10,7 @@ import SignUp from './SignUp';
 import Login from './Login';
 import ChangePassword from './ChangePassword';
 import Test from './Test';
+import CheckBox from './CheckBox';
 
 
 function App() {
@@ -17,44 +18,48 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Navbar />
-      <div className="content">
-        <Switch>
-          
-          <Route exact path="/"> 
-            <Home />
-          </Route>
+        <Navbar />
+        <div className="content">
+          <Switch>
+            
+            <Route exact path="/"> 
+              <Home />
+            </Route>
 
-          <Route exact path="/create"> 
-            <Create />
-          </Route>
+            <Route exact path="/create"> 
+              <Create />
+            </Route>
 
-          <Route exact path="/sign-up">
-            <SignUp/>
-          </Route>
+            <Route exact path="/sign-up">
+              <SignUp/>
+            </Route>
 
-          <Route exact path="/login">
-            <Login/>
-          </Route>
+            <Route exact path="/login">
+              <Login/>
+            </Route>
 
-          <Route exact path="/blogs/:id"> 
-            <BlogDetails />
-          </Route>
+            <Route exact path="/blogs/:id"> 
+              <BlogDetails />
+            </Route>
 
-          <Route exact path="/change-password">
-            <ChangePassword/>
-          </Route>
+            <Route exact path="/change-password">
+              <ChangePassword/>
+            </Route>
 
-          <Route exact path="/test">
-            <Test/>
-          </Route>
+            <Route exact path="/test">
+              <Test/>
+            </Route>
 
-          <Route path='*'>
-            <NotFound/>
-          </Route>
+            <Route exact path="/test1">
+              <CheckBox/>
+            </Route>
 
-        </Switch>
-      </div>
+            <Route path='*'>
+              <NotFound/>
+            </Route>
+
+          </Switch>
+        </div>
     </div>
     </Router>
     
