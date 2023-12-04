@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 import { useHistory } from "react-router-dom/cjs/react-router-dom";
 import './signup.css';
-import { useState } from "react";
+//import { useState } from "react";
 const SignUp = () => {
 
     const history = useHistory();
@@ -35,7 +35,10 @@ const SignUp = () => {
     const handleClick = () => {
         history.push('/login')
     }
+    
 
+
+    
     const handleSubmit = (e) =>{
         e.preventDefault(); //prevent refresh the page after hit the submit button
         

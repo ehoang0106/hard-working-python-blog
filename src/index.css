@@ -33,7 +33,20 @@
   margin: 40px auto;
   padding: 20px;
 }
+/* 404 not found picture */
+.pic-404-mike{
+  display: block;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 100px;
+  margin-bottom: 100px;
+}
 
+.centered-image{
+  max-width: 300px;
+  max-height: 400px;
+}
 /* blog previews / list */
 .blog-preview {
   padding: 10px 16px;
