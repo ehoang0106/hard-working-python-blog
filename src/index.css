@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* base styles */
 * {
   margin: 0;
@@ -102,3 +106,25 @@
   cursor: pointer;
 }
 
+.test button{
+  border-radius: 8px;
+  border: 0;
+  padding: 8px;
+
+}
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  
+}
+
+.table tr{
+  text-align: left;
+  
+}
+
+.table td{
+  text-align: left;
+}
