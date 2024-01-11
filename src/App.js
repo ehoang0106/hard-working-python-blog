@@ -8,6 +8,7 @@ import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 import SignUp from './SignUp';
 import Login from './Login';
+import Test from './Test';
 
 
 function App() {
@@ -37,6 +38,10 @@ function App() {
 
           <Route exact path="/blogs/:id"> 
             <BlogDetails />
+          </Route>
+
+          <Route exact path="/test">
+            <Test/>
           </Route>
 
           <Route path='*'>
